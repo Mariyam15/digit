@@ -1,11 +1,11 @@
-# 🔢 digit
+# DIGIT
 
 A **Neural Network-based Digit Classifier** built from scratch using Python and NumPy.
 This project trains a deep feedforward neural network on the MNIST dataset to recognize handwritten digits (0–9).
 
 ---
 
-## 📂 Project Info
+##  Project Info
 
 * **Repository Name:** `digit`
 * **Main File:** `digit_classifier.py`
@@ -45,13 +45,13 @@ This project trains a deep feedforward neural network on the MNIST dataset to re
 
 ## ▶️ How to Run
 
-### 🔹 Install dependencies
+###  Install dependencies
 
 ```bash
 pip install numpy matplotlib seaborn scikit-learn
 ```
 
-### 🔹 Run the script
+###  Run the script
 
 ```bash
 python digit_classifier.py
@@ -59,7 +59,7 @@ python digit_classifier.py
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 Default architecture:
 
@@ -73,24 +73,24 @@ Default architecture:
 
 ---
 
-## 🔬 Experiments Included
+##  Experiments Included
 
-### 🔹 Learning Rate Comparison
+###  Learning Rate Comparison
 
 * 0.1
 * 0.01
 * 0.001
 
-### 🔹 Activation Function Test
+###  Activation Function Test
 
 * Tanh vs Sigmoid
 
-### 🔹 Architecture Variants
+###  Architecture Variants
 
 * Deep network: `784 → 512 → 256 → 128 → 10`
 * Smaller network: `784 → 128 → 64 → 32 → 10`
 
-### 🔹 Model Complexity Comparison
+###  Model Complexity Comparison
 
 * Simple: `784 → 10`
 * Medium: `784 → 64 → 10`
@@ -98,17 +98,17 @@ Default architecture:
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
-* ✅ Accuracy
-* ✅ Precision (Macro Average)
-* ✅ Recall (Macro Average)
-* ✅ F1 Score (Macro Average)
-* ✅ Confusion Matrix (visualized)
+*  Accuracy
+*  Precision (Macro Average)
+*  Recall (Macro Average)
+*  F1 Score (Macro Average)
+*  Confusion Matrix (visualized)
 
 ---
 
-## 📸 Sample Output
+##  Sample Output
 
 * Random digit visualization
 * Training logs per epoch:
@@ -121,7 +121,7 @@ Epoch 1: Loss=0.1234, Accuracy=0.89
 
 ---
 
-## ⚠️ Known Issues
+##  Known Issues
 
 * No GPU acceleration (CPU only)
 * Training can be slow
@@ -130,7 +130,7 @@ Epoch 1: Loss=0.1234, Accuracy=0.89
 
 ---
 
-## 💡 Future Improvements
+##  Future Improvements
 
 * Add model saving/loading
 * Implement optimizers (Adam, RMSprop)
@@ -140,13 +140,13 @@ Epoch 1: Loss=0.1234, Accuracy=0.89
 
 ---
 
-## 📜 License
+##  License
 
 Free to use for learning and educational purposes.
 
 ---
 
-## 👤 Author
+##  Author
 MARIYAM FATIMA
 https://github.com/Mariyam15/digit
 
